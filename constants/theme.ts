@@ -1,29 +1,73 @@
 /**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ * Caelestia Shell Theme - Arch Linux inspired purple/cyan gradient theme
  */
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+// Caelestia theme colors - Purple and Cyan gradients
+const caelestiaPurple = '#7c3aed';
+const caelestiaPurpleLight = '#a78bfa';
+const caelestiaPurpleDark = '#5b21b6';
+const caelestiaCyan = '#06b6d4';
+const caelestiaCyanLight = '#67e8f9';
+const caelestiaCyanDark = '#0891b2';
+const caelestiaBackground = '#1a0d2e';
+const caelestiaBackgroundLight = '#2d1b4e';
+const caelestiaSurface = '#2d1b4e';
+const caelestiaSurfaceLight = '#3d2a5e';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    text: '#f3f4f6',
+    textSecondary: '#d1d5db',
+    background: caelestiaBackground,
+    backgroundSecondary: caelestiaBackgroundLight,
+    surface: caelestiaSurface,
+    surfaceLight: caelestiaSurfaceLight,
+    tint: caelestiaPurpleLight,
+    accent: caelestiaCyan,
+    accentLight: caelestiaCyanLight,
+    icon: caelestiaPurpleLight,
+    tabIconDefault: '#6b7280',
+    tabIconSelected: caelestiaPurpleLight,
+    primary: caelestiaPurple,
+    primaryLight: caelestiaPurpleLight,
+    primaryDark: caelestiaPurpleDark,
+    secondary: caelestiaCyan,
+    secondaryLight: caelestiaCyanLight,
+    secondaryDark: caelestiaCyanDark,
+    success: '#10b981',
+    warning: '#f59e0b',
+    error: '#ef4444',
+    border: '#4c1d95',
+    card: caelestiaSurface,
+    cardLight: caelestiaSurfaceLight,
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    text: '#f3f4f6',
+    textSecondary: '#d1d5db',
+    background: caelestiaBackground,
+    backgroundSecondary: caelestiaBackgroundLight,
+    surface: caelestiaSurface,
+    surfaceLight: caelestiaSurfaceLight,
+    tint: caelestiaPurpleLight,
+    accent: caelestiaCyan,
+    accentLight: caelestiaCyanLight,
+    icon: caelestiaPurpleLight,
+    tabIconDefault: '#6b7280',
+    tabIconSelected: caelestiaPurpleLight,
+    primary: caelestiaPurple,
+    primaryLight: caelestiaPurpleLight,
+    primaryDark: caelestiaPurpleDark,
+    secondary: caelestiaCyan,
+    secondaryLight: caelestiaCyanLight,
+    secondaryDark: caelestiaCyanDark,
+    success: '#10b981',
+    warning: '#f59e0b',
+    error: '#ef4444',
+    border: '#4c1d95',
+    card: caelestiaSurface,
+    cardLight: caelestiaSurfaceLight,
   },
 };
 
